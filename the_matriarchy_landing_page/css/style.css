@@ -96,25 +96,23 @@ header .overlay {
 }
 
 .cta {
-  padding-top: 151px;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: .33px;
 }
 
-.who {
-  padding-left: 24px;
+.ml4 {
+  padding-left: 4.25rem !important;
 }
 
-.spam {
-  padding-right: 15px;
+.form-control {
+  padding: 1rem 0 .8rem 0 !important;
 }
 
-.invite {
-  padding-right: 50px;
+p {
+  margin-bottom: 0.8rem !important;
 }
-
 
 .custom-file-control:invalid, .form-control:invalid {
     background-image: linear-gradient(0deg,#fff 3px,rgba(213,0,0,0) 0),linear-gradient(0deg,#fff 1px,transparent 0);
