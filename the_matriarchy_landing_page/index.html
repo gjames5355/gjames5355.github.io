@@ -37,17 +37,17 @@
 
             <div class="row align-items-end">
               <div class="col">
-                <form class="form-signin fade-in two">
+                <form class="form-signin fade-in two" action="">
                     <label for="inputEmail1" class="sr-only">Email address</label>
-                    <input type="email" id="inputEmail1" class="form-control" placeholder="rachel@the-matriarchy.com" required autofocus pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input name="emailSubmission[]" type="email" id="inputEmail1" class="form-control valid-email required" placeholder="rachel@the-matriarchy.com" autofocus tabindex="1">
                     <label for="inputEmail2" class="sr-only">Email address</label>
-                    <input type="email" id="inputEmail2" class="form-control valid-email" placeholder="Best Friend" autofocus="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input name="emailSubmission[]" type="email" id="inputEmail2" class="form-control valid-email" placeholder="Best Friend" tabindex="2" >
                     <label for="inputEmail3" class="sr-only">Email address</label>
-                    <input type="email" id="inputEmail3" class="form-control valid-email" placeholder="Second Best Friend" autofocus="">
+                    <input name="emailSubmission[]" type="email" id="inputEmail3" class="form-control valid-email" placeholder="Second Best Friend" tabindex="3">
                     <label for="inputEmail4" class="sr-only">Email address</label>
-                    <input type="email" id="inputEmail4" class="form-control valid-email" placeholder="Your Mom" autofocus="">
+                    <input name="emailSubmission[]" type="email" id="inputEmail4" class="form-control valid-email" placeholder="Your Mom" tabindex="4">
                     <label for="inputEmail5" class="sr-only">Email address</label>
-                    <input type="email" id="inputEmail5" class="form-control valid-email" placeholder="Your Frenemy" autofocus="">
+                    <input name="emailSubmission[]" type="email" id="inputEmail5" class="form-control valid-email" placeholder="Your Frenemy" tabindex="5">
                     <button class="btn btn-lg btn-primary btn-block mx-auto fade-in three mt-5" type="submit">Submit</button>
                 </form>
               </div>

@@ -190,11 +190,15 @@ p {
   border-bottom: 3px solid white;
 }
 */
-input:required:valid {
+.valid-input {
     background: url("../img/crown.png") right no-repeat;
     padding-right: 17px;
     border-bottom: 3px solid white;
-  }
+}
+
+.form-control:focus {
+    background-size: unset;
+}
 
 
 /*input[type=email]:optional:enabled {
