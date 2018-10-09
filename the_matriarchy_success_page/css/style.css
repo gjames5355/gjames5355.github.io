@@ -1,0 +1,122 @@
+body {
+  background: url("../img/bg.png") no-repeat center;
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande";
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+  overflow: hidden;
+}
+
+img {
+    padding-top: 20px;
+}
+
+
+span {
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.wrapper {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.wrapper .container {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/bg.png") no-repeat center;
+  background-size: cover;
+  opacity: 0.65;
+  z-index: 1;
+}
+
+.meetUs {
+  font-size: 1.125rem;
+  letter-spacing: .25px;
+}
+
+.lead {
+  font-size: 1.5rem;
+  letter-spacing: .33px;
+  padding-top: 183px;
+  padding-bottom: 70px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  img {
+      padding-top: 30px;
+  }
+
+  p {
+    font-size: 1.125rem;
+    letter-spacing: .25px;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+    letter-spacing: .33px;
+    padding-top: 203px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+      padding-top: 79px;
+  }
+
+  p {
+    font-size: 1.125rem;
+    letter-spacing: .25px;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+    letter-spacing: .33px;
+    padding-top: 203px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+  }
+}
+
+
+
